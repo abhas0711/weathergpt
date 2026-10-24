@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.env
+.DS_Store
+
+# Production build
+build/
+
+# Dev archives and logs
+*.log
+*.patch
+dev-archive/
+
+# Generated Data Files
+accuracy_log.json
+forecast_snapshots.json
+user_settings.json
+push_subscriptions.json
+vapid_keys.json
