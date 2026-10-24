@@ -1,14 +1,14 @@
 # WeatherGPT 🌩️
 
-**SIH 2026 | Problem Statement: SIH26068 | Theme: Disaster Management**  
-**Team: The Code Matrix | Team ID: 172065**
+**Theme: Disaster Management**
+**Team: The Code Matrix**
 
 ---
 
 <div align="center">
 
-[![SIH 2026](https://img.shields.io/badge/SIH%202026-PS%2026068-purple?style=flat-square)](https://sih.gov.in)
-[![Theme](https://img.shields.io/badge/Theme-Disaster%20Management-red?style=flat-square)](https://sih.gov.in)
+[![Theme](https://img.shields.io/badge/Theme-Disaster%20Management-red?style=flat-square)]()
+[![Project](https://img.shields.io/badge/Project-WeatherGPT-blue?style=flat-square)]()
 [![Team](https://img.shields.io/badge/Team-The%20Code%20Matrix-blue?style=flat-square)](https://github.com/omcodes16/make-to-win)
 [![Status](https://img.shields.io/badge/Status-Active%20Dev-orange?style=flat-square)]()
 [![React](https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react)]()
@@ -20,7 +20,7 @@
 
 ---
 
-WeatherGPT is our submission for Smart India Hackathon 2026. The core idea is pretty simple — weather data in India exists everywhere but it's genuinely hard to use. IMD has great forecasts, NDMA has alert feeds, there are three major NWP models running globally, satellite data from MOSDAC — but none of it talks to each other, and almost none of it reaches someone like a fisherman in Tamil Nadu or a farmer in Bihar in a language and format they can actually act on.
+WeatherGPT is a conversational weather intelligence platform designed to make weather forecasts, disaster alerts, and climate information easier to access and act on. Weather data in India exists across many sources — including IMD forecasts, NDMA alert feeds, global numerical weather prediction (NWP) models, and satellite data — but it can be difficult for people to interpret and use in a timely way.
 
 So we built a conversational layer on top of all of it. You talk to it, it pulls from GFS, ECMWF, and ICON simultaneously, cross-checks them, gives you a confidence score, and answers in your language — Hindi, English, Bengali, or Assamese right now, more coming. There's also a voice bulletin system (Aawaz-e-Mausam), a marine safety module for fishermen (Sagar-Rakshak), an AI crop doctor (Mausam-Drishti), a disaster manager portal, and a one-tap SOS that sends your GPS + photo to authorities.
 
@@ -30,7 +30,7 @@ This is a working prototype. Some parts are fully built and running, some are st
 
 ## What problem are we solving?
 
-The SIH problem statement (SIH26068) asks for a conversational AI system for weather forecasting, alerts, and climate information. But the real problem is older and messier than that.
+WeatherGPT aims to bring weather forecasting, alerts, and climate information into one conversational platform. The broader challenge is practical access to reliable, understandable, and locally relevant weather information.
 
 Right now in India:
 - A farmer in MP who wants to know if tomorrow is safe for pesticide spraying has to check IMD's website, interpret probability percentages, and cross-reference a district bulletin — none of which is in Hindi, none of which is conversational.
@@ -38,7 +38,7 @@ Right now in India:
 - District disaster managers create alerts on one system, SMS goes out from another, there's no unified dashboard.
 - Northeast India (Assam, Meghalaya, etc.) is almost entirely excluded from weather services that work in regional languages.
 
-We're trying to fix all of that with one platform. Ambitious? Yes. We know we won't get everything done before SIH. But the architecture is designed to grow.
+We're bringing these capabilities together in one platform. The system is designed to grow as more data sources, languages, and deployment capabilities are integrated.
 
 ---
 
@@ -418,8 +418,8 @@ Sources:
 
 ## Team
 
-**The Code Matrix** | SIH 2026 | Team ID: 172065 | PS: SIH26068
+**The Code Matrix**
 
 ---
 
-*This is a prototype built for SIH 2026. Not everything is production-ready. We're working on it.*
+*WeatherGPT is an evolving prototype. Some capabilities are implemented, while others remain in progress as described above.*
